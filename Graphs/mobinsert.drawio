@@ -1,0 +1,90 @@
+<mxfile>
+    <diagram id="EFLUYTiLAFMVj_lMiKP8" name="Page-1">
+        <mxGraphModel dx="440" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Scan for the correct mob name and load as object when found" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span&gt;Are the rest of the properties numbers?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="140" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Throw error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="230" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="185" y="370" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span&gt;Is property attack an array or number?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="160" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="230" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Throw error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="390" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Import the number put in" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="430" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Neither" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="300" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="310" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="String" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="380" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="400"/>
+                            <mxPoint x="310" y="465"/>
+                            <mxPoint x="315" y="465"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Is the select difficulty founded?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="360" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Import the number for said difficulty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="430" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Throw error&lt;br&gt;(Selected Difficulty not found)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="380" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="380" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

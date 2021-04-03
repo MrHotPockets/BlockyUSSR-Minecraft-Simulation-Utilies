@@ -1,9 +1,0 @@
-First it sets the incrementing expression "i" to 0, then it uses a while loop that
-checks if storename, the name of the list that is being called, matches window.storedlist[i], 
-which is a name of a list stored in the list database "window.storedlist". If not,
-it will increment variable "i" by 2, and check if "i" is greater than the length
-of the list database, which will execute a console log saying "The list
-you put in is not stored", and return an empty string if so. If storename does 
-match "window.storedlist[i]", it will return "window.storedlist[i + 1]", which
-is the list of the list being called. The reason why a "+ 1" is added is because
-lists are stored with the name first and then the list itself.

@@ -14,7 +14,8 @@ const zombie = {
     ARM: 2,
     TOUGH: 0,
     PROT: 0,
-    RES: 0
+    RES: 0,
+    WEAPON: 'Zombie'
 }
 
 console.log(metasim.DPS(ironsword))

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Player",
+        "type":"Vanilla",
+        "health": 20,
+        "armor": 0,
+        "toughness": 0,
+        "protection": 0,
+        "resistance": 0,
+        "attack": 1
+    },
+    {
+        "name": "Zombie",
+        "type":"Vanilla",
+        "health": 20,
+        "armor": 2,
+        "toughness": 0,
+        "protection": 0,
+        "resistance": 0,
+        "attack": [
+            {
+              "easy": 2.5,
+              "normal": 3,
+              "hard": 4.5  
+            }
+        ]
+    }
+]

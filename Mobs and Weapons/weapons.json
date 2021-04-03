@@ -1,0 +1,124 @@
+[
+    {
+        "category": "Swords",
+        "types": [
+            {
+                "name":"Wooden Sword",
+                "type":"Vanilla",
+                "damage":4,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Gold Sword",
+                "type":"Vanilla",
+                "damage":4,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Stone Sword",
+                "type":"Vanilla",
+                "damage":5,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Iron Sword",
+                "type":"Vanilla",
+                "damage":6,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Steel Sword",
+                "type":"BlockyUSSR",
+                "damage":9,
+                "attackspeed":1.2,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Diamond Sword",
+                "type":"Vanilla",
+                "damage":7,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Netherrite Sword",
+                "type":"Vanilla",
+                "damage":8,
+                "attackspeed":1.6,
+                "sharpness":0,
+                "strength":0
+             }
+        ]
+    },
+    {
+        "category": "Axes",
+        "types": [
+            {
+                "name":"Wooden Axe",
+                "type":"Vanilla",
+                "damage":7,
+                "attackspeed":0.8,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Gold Axe",
+                "type":"Vanilla",
+                "damage":7,
+                "attackspeed":1.0,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Stone Axe",
+                "type":"Vanilla",
+                "damage":9,
+                "attackspeed":0.8,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Iron Axe",
+                "type":"Vanilla",
+                "damage":9,
+                "attackspeed":0.9,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Steel Axe",
+                "type":"BlockyUSSR",
+                "damage":10.5,
+                "attackspeed":0.8,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Diamond Axe",
+                "type":"Vanilla",
+                "damage":9,
+                "attackspeed":1.0,
+                "sharpness":0,
+                "strength":0
+             },
+             {
+                "name":"Netherrite Axe",
+                "type":"Vanilla",
+                "damage":10,
+                "attackspeed":1.0,
+                "sharpness":0,
+                "strength":0
+             }
+        ]
+    }
+ ]

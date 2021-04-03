@@ -1,0 +1,47 @@
+<mxfile>
+    <diagram id="apLHJex2gR6CP7d0cp4c" name="Page-1">
+        <mxGraphModel dx="440" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="For each mob on the mob list" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="450"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Are all the properties correct?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="410" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="F" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Throw error" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="430" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="275" y="500" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="User makes list of object names" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="If object name matches with list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
