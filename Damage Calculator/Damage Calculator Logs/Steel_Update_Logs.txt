@@ -1,0 +1,92 @@
+Statics for BlockyUSSR 1.2 Steel Update
+Sword Category: Steel Test
+Mob Stats:40, 0, 0
+(Basic DPS w/ Mob) Using Iron Sword against Basic Test: 4.4
+(Basic DPS w/ Mob) Using Steel Sword against Basic Test: 4.2
+(Basic DPS w/ Mob) Using Diamond Sword against Basic Test: 3.8
+Mob Stats:100, 0, 0
+(Basic DPS w/ Mob) Using Iron Sword against stat: 10.6
+(Basic DPS w/ Mob) Using Steel Sword against stat: 10
+(Basic DPS w/ Mob) Using Diamond Sword against stat: 9.4
+Axe Category: Steel Test
+Mob Stats:40, 0, 0
+(Basic DPS w/ Mob) Using Iron Axe against Basic Test: 5.6
+(Basic DPS w/ Mob) Using Steel Axe against Basic Test: 5
+(Basic DPS w/ Mob) Using Diamond Axe against Basic Test: 5
+Mob Stats:100, 0, 0
+(Basic DPS w/ Mob) Using Iron Axe against stat: 13.3
+(Basic DPS w/ Mob) Using Steel Axe against stat: 12.5
+(Basic DPS w/ Mob) Using Diamond Axe against stat: 12
+ 
+ 
+ 
+Sword Category: Steel Test 2
+Mob Stats:40, 0, 0
+(Basic DPS w/ Mob + 0.1 Delay) Using Iron Sword against Basic Test: 5.1
+(Basic DPS w/ Mob + 0.1 Delay) Using Steel Sword against Basic Test: 4.7
+(Basic DPS w/ Mob + 0.1 Delay) Using Diamond Sword against Basic Test: 4.4
+ 
+(Basic DPS w/ Mob + 0.2 Delay) Using Iron Sword against Basic Test: 5.8
+(Basic DPS w/ Mob + 0.2 Delay) Using Steel Sword against Basic Test: 5.2
+(Basic DPS w/ Mob + 0.2 Delay) Using Diamond Sword against Basic Test: 5
+ 
+(Basic DPS w/ Mob + 0.4 Delay) Using Iron Sword against Basic Test: 7.2
+(Basic DPS w/ Mob + 0.4 Delay) Using Steel Sword against Basic Test: 6.2
+(Basic DPS w/ Mob + 0.4 Delay) Using Diamond Sword against Basic Test: 6.2
+ 
+(Basic DPS w/ Mob + 0.8 Delay) Using Iron Sword against Basic Test: 10
+(Basic DPS w/ Mob + 0.8 Delay) Using Steel Sword against Basic Test: 8.2
+(Basic DPS w/ Mob + 0.8 Delay) Using Diamond Sword against Basic Test: 8.5
+ 
+Mob Stats:100, 0, 0
+(Basic DPS w/ Mob + 0.1 Delay) Using Iron Sword against stat: 12.3
+(Basic DPS w/ Mob + 0.1 Delay) Using Steel Sword against stat: 11.2
+(Basic DPS w/ Mob + 0.1 Delay) Using Diamond Sword against stat: 10.9
+ 
+(Basic DPS w/ Mob + 0.2 Delay) Using Iron Sword against stat: 14
+(Basic DPS w/ Mob + 0.2 Delay) Using Steel Sword against stat: 12.4
+(Basic DPS w/ Mob + 0.2 Delay) Using Diamond Sword against stat: 12.4
+ 
+(Basic DPS w/ Mob + 0.4 Delay) Using Iron Sword against stat: 17.4
+(Basic DPS w/ Mob + 0.4 Delay) Using Steel Sword against stat: 14.8
+(Basic DPS w/ Mob + 0.4 Delay) Using Diamond Sword against stat: 15.4
+ 
+(Basic DPS w/ Mob + 0.8 Delay) Using Iron Sword against stat: 24.2
+(Basic DPS w/ Mob + 0.8 Delay) Using Steel Sword against stat: 19.6
+(Basic DPS w/ Mob + 0.8 Delay) Using Diamond Sword against stat: 21.4
+ 
+Axe Category: Steel Test 2
+Mob Stats:40, 0, 0
+(Basic DPS w/ Mob + 0.1 Delay) Using Iron Axe against Basic Test: 6.1
+(Basic DPS w/ Mob + 0.1 Delay) Using Steel Axe against Basic Test: 5.4
+(Basic DPS w/ Mob + 0.1 Delay) Using Diamond Axe against Basic Test: 5.5
+ 
+(Basic DPS w/ Mob + 0.2 Delay) Using Iron Axe against Basic Test: 6.6
+(Basic DPS w/ Mob + 0.2 Delay) Using Steel Axe against Basic Test: 5.8
+(Basic DPS w/ Mob + 0.2 Delay) Using Diamond Axe against Basic Test: 6
+ 
+(Basic DPS w/ Mob + 0.4 Delay) Using Iron Axe against Basic Test: 7.6
+(Basic DPS w/ Mob + 0.4 Delay) Using Steel Axe against Basic Test: 6.6
+(Basic DPS w/ Mob + 0.4 Delay) Using Diamond Axe against Basic Test: 7
+ 
+(Basic DPS w/ Mob + 0.8 Delay) Using Iron Axe against Basic Test: 9.6
+(Basic DPS w/ Mob + 0.8 Delay) Using Steel Axe against Basic Test: 8.2
+(Basic DPS w/ Mob + 0.8 Delay) Using Diamond Axe against Basic Test: 9
+ 
+Mob Stats:100, 0, 0
+(Basic DPS w/ Mob + 0.1 Delay) Using Iron Axe against stat: 14.5
+(Basic DPS w/ Mob + 0.1 Delay) Using Steel Axe against stat: 13.5
+(Basic DPS w/ Mob + 0.1 Delay) Using Diamond Axe against stat: 13.2
+ 
+(Basic DPS w/ Mob + 0.2 Delay) Using Iron Axe against stat: 15.7
+(Basic DPS w/ Mob + 0.2 Delay) Using Steel Axe against stat: 14.5
+(Basic DPS w/ Mob + 0.2 Delay) Using Diamond Axe against stat: 14.4
+ 
+(Basic DPS w/ Mob + 0.4 Delay) Using Iron Axe against stat: 18.1
+(Basic DPS w/ Mob + 0.4 Delay) Using Steel Axe against stat: 16.5
+(Basic DPS w/ Mob + 0.4 Delay) Using Diamond Axe against stat: 16.8
+ 
+(Basic DPS w/ Mob + 0.8 Delay) Using Iron Axe against stat: 22.9
+(Basic DPS w/ Mob + 0.8 Delay) Using Steel Axe against stat: 20.5
+(Basic DPS w/ Mob + 0.8 Delay) Using Diamond Axe against stat: 21.6
+ 

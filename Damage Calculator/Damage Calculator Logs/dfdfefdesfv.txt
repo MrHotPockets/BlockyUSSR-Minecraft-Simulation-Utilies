@@ -1,0 +1,83 @@
+var moblist = ["Basic Test", "stat"];
+var weaponlist = ["Iron Axe", "Steel Axe", "Diamond Axe", "Iron Sword", "Steel Sword", "Diamond Sword"]
+annoucelist(moblist, weaponlist)
+for (let i = 0; i < 3; i++){
+	console.log(" ")
+}
+var moblist = ["Basic Test", "stat"];
+console.log("Sword Category: Steel Test")
+var weaponlist = ["Iron Sword", "Steel Sword", "Diamond Sword",]
+maintest("mobbasicdps", moblist, weaponlist)
+console.log("Axe Category: Steel Test")
+var weaponlist = ["Iron Axe", "Steel Axe", "Diamond Axe",]
+maintest("mobbasicdps", moblist, weaponlist)
+for (let i = 0; i < 3; i++){
+	console.log(" ")
+}
+console.log("Sword Category: Steel Test 2")
+var weaponlist = ["Iron Sword", "Steel Sword", "Diamond Sword",]
+maintest("mobbasicdps2", moblist, weaponlist)
+console.log("Axe Category: Steel Test 2")
+var weaponlist = ["Iron Axe", "Steel Axe", "Diamond Axe",]
+maintest("mobbasicdps2", moblist, weaponlist)
+
+
+
+
+var listrestore = [];
+var storedlist = [];
+var start = listrestore.length
+function removeduplicates(list, storename){
+//This function removes duplicates from said list
+var selected;
+for(var i = 0; i < list.length; i++){
+selected = list[i]
+console.log(selected)
+appendItem(listrestore, list[l])
+for(var l = 0; l <= list.length;){
+if(list[l] === selected){
+  appendItem(listrestore, list[l])
+  removeItem(list, l)
+}
+else{
+  l++
+}}
+console.log("array: " + l + " length: " + list.length)
+  appendItem(list, selected)
+}
+if(typeof storename !== undefined){
+store(listrestore, storename);
+listrestore = [];
+}
+return(list);
+}
+
+function test(amount, storename){
+var animals = getColumn("Dogs", "Name")
+var testlist = [];
+for(var i = 0; i < amount; i++){
+  appendItem(testlist, animals[randomNumber(0, 100)]);
+}
+return(removeduplicates(testlist, storename));
+}
+
+function store(list, storename){
+appendItem(storedlist, storename);
+appendItem(storedlist, list);
+}
+
+function calllist(storename){
+var i = 0;
+while(storename != storedlist[i]){
+  i = i + 2;
+  if(storedlist.length < i){
+    console.log("Error restoring list: The list you put in is not stored");
+    return("");
+  }}
+  if(typeof list !== undefined){
+  return(storedlist[i + 1]);
+  }}
+  
+
+
+console.log(test(500, "test"))

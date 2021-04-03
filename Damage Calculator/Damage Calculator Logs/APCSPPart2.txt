@@ -1,0 +1,294 @@
+var listrestore = [];
+var storedlist = [];
+var start = listrestore.length
+function removeduplicates(list, storename){
+var state;
+var state2;
+//This function removes duplicates from said list
+var selected;
+var isalreadychecked = [];
+for(var i = 0; i < list.length; i++){
+selected = list[i]
+for(var o = 0; i < isalreadychecked.length; o++){
+  if(selected === isalreadychecked[o]){
+  state2 = true
+  }
+  else{
+    state2 = false
+  }
+}
+if (state2 = false){
+console.log(selected)
+//Check if it's already in the list
+appendItem(listrestore, list[i])
+appendItem(isalreadychecked, list[i])
+var l = 0;
+while(l <= list.length){
+if(list[l] === selected){
+state = true
+}
+if(list[l] !== selected){
+state = false
+}
+if(state === true){
+  appendItem(listrestore, list[l])
+  removeItem(list, l)
+  l = l - 10
+}
+else if(state === false){
+  l++
+}}}
+else if (state2 === true){
+  i++
+  console.log(true)
+}
+}
+if(typeof storename !== undefined){
+store(listrestore, storename);
+listrestore = [];
+}
+return(list);
+}
+
+function test(amount, storename){
+var animals = getColumn("Dogs", "Name")
+var testlist = [];
+for(var i = 0; i < amount; i++){
+  appendItem(testlist, animals[randomNumber(0, 42)]);
+}
+return(removeduplicates(testlist, storename));
+}
+
+function store(list, storename){
+appendItem(storedlist, storename);
+appendItem(storedlist, list);
+}
+
+function calllist(storename){
+var i = 0;
+while(storename != storedlist[i]){
+  i = i + 2;
+  if(storedlist.length < i){
+    console.log("Error restoring list: The list you put in is not stored");
+    return("");
+  }}
+  if(typeof list !== undefined){
+  return(storedlist[i + 1]);
+  }}
+  
+
+
+console.log(test(2000, "test"))
+
+
+
+for(var l = 0; l < storedlist[i + 1].length; l++){   appendItem(storeloc,(storedlist[i + 1])[l]);   }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var listrestore = [];
+var storedlist = [];
+var start = listrestore.length
+var yadiya = [];
+
+
+
+
+function storelist(selectedlist, storename){
+//Takes "storename" and "selectedlist" and stores them into the list database in order.
+appendItem(storedlist, storename);
+appendItem(storedlist, selectedlist);
+}
+
+function calllist(storename){
+var i = 0;
+//The while loop goes through the list database until it finds the matching list. It will then return it. If said list is not in it it will say so
+while(storename != storedlist[i]){
+  i = i + 2;
+  if(storedlist.length < i){
+    console.log("Error calling list: The list you put in is not stored");
+    return("");
+  }}
+return(storedlist[i + 1])
+}
+
+
+function haslist(storename){
+  var i = 0;
+while(storename != storedlist[i]){
+  i = i + 2;
+//If it has checked the whole list database and still hasn't found a match, it will return as false
+  if(storedlist.length < i){
+    return(false);
+  }}
+//If it has found a match and it is not undefined it will return as true. If said list is undefined it will say so.
+  if(typeof storedlist[i] !== undefined){
+  return(true);
+  }
+  else{
+  console.log("Error checking if list is stored: List is undefined") 
+  }
+}
+
+function deletelist(storename){
+//The while loop goes through the list database until it finds the matching list. It will then remove said list. If said list is not in it it will say so
+  var i = 0;
+while(storename != storedlist[i]){
+  i = i + 2;
+  if(storedlist.length < i){
+    console.log("Error deleting list: The list you put in is not stored");
+    return("");
+  }}
+  removeItem(storedlist, i)
+  removeItem(storedlist, i)
+}
+
+
+
+
+function test(){
+for(var i = 0; i < 10; i++){
+var numlist = [];
+for(var l = 0; l < 10000; l++){
+  appendItem(numlist, (randomNumber(0,1000)))
+}
+storelist(numlist, "yes" + i)
+}
+console.log("Yare")
+var number9 = calllist("yes" + (i-1))
+console.log(number9)
+console.log(haslist("yes" + (i-1)))
+deletelist("yes" + (i-1))
+console.log("yes" + (i-1))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Final:
+//Makes the list database. MUST do this before using any other function in this library
+function makelistdatabase(){
+  window.storedlist = [];
+}
+//Takes said list and the name given to that list and stores them into the list database in order.
+function storelist(selectedlist, storename){
+appendItem(window.storedlist, storename);
+appendItem(window.storedlist, selectedlist);
+}
+//The while loop goes through the list database until it finds the matching list. It will then return it. 
+//If said list is not in it it will say so.
+function calllist(storename){
+var i = 0;
+while(storename != window.storedlist[i]){
+  i = i + 2;
+  if(window.storedlist.length < i){
+    console.log("Error calling list: The list you put in is not stored");
+    return("");
+  }}
+return(window.storedlist[i + 1]);
+}
+
+//The while loop goes through the list database until it finds the matching list.
+//If it has checked the whole list database and still hasn't found a match, it will return as false.
+//If it has found a match and it is not undefined it will return as true. If said list is undefined it will say so.
+function haslist(storename){
+  var i = 0;
+while(storename != window.storedlist[i]){
+  i = i + 2;
+  if(window.storedlist.length < i){
+    return(false);
+  }}
+  if(typeof window.storedlist[i] !== undefined){
+  return(true);
+  }
+  else{
+  console.log("Error checking if list is stored: List is undefined") ;
+  }
+}
+//The while loop goes through the list database until it finds the matching list. It will then remove said list. 
+//If said list is not in it it will say so.
+function deletelist(storename){
+  var i = 0;
+while(storename != window.storedlist[i]){
+  i = i + 2;
+  if(window.storedlist.length < i){
+    console.log("Error deleting list: The list you put in is not stored");
+    return("");
+  }}
+  removeItem(window.storedlist, i);
+  removeItem(window.storedlist, i);
+}
+
+function test(){
+makelistdatabase();
+for(var i = 0; i < 10; i++){
+var numlist = [];
+for(var l = 0; l < 100; l++){
+  appendItem(numlist, (randomNumber(0,1000)));
+}
+storelist(numlist, "yes" + i);
+}
+console.log("Yare");
+var number9 = calllist("yes" + (i-1));
+console.log(number9);
+console.log(haslist("yes" + (i-1)));
+deletelist("yes" + (i-1));
+deletelist("yes" + (i-1));
+console.log("yes" + (i-1));
+}
+
+test();
+
+
+

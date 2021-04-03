@@ -1,0 +1,2 @@
+1. There can only be 1 of each type of item so that we don't get duplicates
+2. Each item is listed into a category. These categories will ALWAYS coutput a set or range of items (number/range is next to category)
