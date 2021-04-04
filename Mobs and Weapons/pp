@@ -1,0 +1,152 @@
+{
+      "category":"BlockyUSSR",
+      "weapon":[
+         {
+            "category":"Swords",
+            "material":[
+               {
+                  "name":"Steel Sword",
+                  "type":"BlockyUSSR",
+                  "damage":9,
+                  "attackspeed":1.2,
+                  "sharpness":0,
+                  "strength":0
+               }
+            ]  
+         },
+         {
+            "category":"Axes",
+            "types":[
+               {
+                  "name":"Steel Axe",
+                  "type":"BlockyUSSR",
+                  "damage":10.5,
+                  "attackspeed":0.8,
+                  "sharpness":0,
+                  "strength":0
+               }
+            ]
+         }
+      ]
+   }
+
+
+   material.name.forEach(weapon => {
+                    if (weapon.toLowerCase() === selectedweapon){
+                        console.log(selectedweapon)
+                    }
+                })
+            })
+
+      for (values in material){
+                if (console.log(Object.values(material))){
+
+                } 
+            }
+
+
+
+
+
+
+
+var fs = require("fs");
+const path = require('path')
+var fas = require("./damage_calculatons/../../../Mobs and Weapons/weapons.json");
+
+const loadObject = (selectedweapon) => {
+//Loads up the weapon.json
+const weaponspath = path.normalize('./damage_calculatons/../Mobs and Weapons/weapons.json') 
+console.log(weaponspath)
+var file_content = fs.readFileSync(weaponspath);
+var weaponjson = JSON.parse(file_content);
+//Searches for each weapon
+selectedweapon = selectedweapon.toLowerCase()
+weaponjson.forEach(mctype => {
+    mctype.weapon.forEach(category => {
+        category.material.forEach(material => {
+            if (material.weapon.toLowerCase() === selectedweapon){
+                return JSON.stringify(material)
+            }
+        })
+    })
+})}
+
+
+console.log(loadObject('Gold Sword'))
+
+var fs = require("fs");
+const path = require('path')
+var fas = require("./damage_calculatons/../../../Mobs and Weapons/weapons.json");
+
+const loadObject = (selectedweapon) => {
+//Loads up the weapon.json
+const weaponspath = path.normalize('./damage_calculatons/../Mobs and Weapons/weapons.json') 
+var file_content = fs.readFileSync(weaponspath);
+var weaponjson = JSON.parse(file_content);
+//Searches for each weapon
+selectedweapon = selectedweapon.toLowerCase()
+weaponjson.forEach(mctype => {
+    mctype.weapon.forEach(category => {
+        category.material.forEach(material => {
+            if (material.weapon.toLowerCase() === selectedweapon){
+                const {weapon, damage, attackspeed, sharpness, strength} = material;
+                let weaponUsed = {
+                    NAME : weapon,
+                    ATK: damage,
+                    ATKSPEED: attackspeed,
+                    SHARP: sharpness,
+                    STR: strength
+                }
+                console.log(weaponUsed)
+                return(weaponUsed)
+            }
+        })
+    })
+})}
+
+
+ console.log(loadObject('Gold Sword'))
+
+
+
+code yoyo
+
+
+var fs = require("fs");
+const path = require('path')
+var fas = require("./damage_calculatons/../../../Mobs and Weapons/weapons.json");
+
+const loadObject = (selectedweapon) => {
+    //Loads up the weapon.json
+    const weaponspath = path.normalize('./damage_calculatons/../Mobs and Weapons/weapons.json')
+    var file_content = fs.readFileSync(weaponspath);
+    var weaponjson = JSON.parse(file_content);
+    //Searches for each weapon
+    selectedweapon = selectedweapon.toLowerCase()
+    let weaponUsed;
+    weaponjson.forEach(mctype => {
+      mctype.weapon.forEach(category => {
+        category.material.forEach(material => {
+          if (material.weapon.toLowerCase() === selectedweapon) {
+            const { weapon, damage, attackspeed, sharpness, strength } = material;
+            //Renames keys in object
+            weaponUsed = {
+              NAME: weapon,
+              ATK: damage,
+              ATKSPEED: attackspeed,
+              SHARP: sharpness,
+              STR: strength
+            }
+  
+          }
+        })
+      })
+    })
+    return (weaponUsed)
+  }
+  
+  
+const weaponUsed = loadObject('Gold Sword')
+console.log(weaponUsed)
+
