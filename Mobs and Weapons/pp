@@ -150,3 +150,12 @@ const loadObject = (selectedweapon) => {
 const weaponUsed = loadObject('Gold Sword')
 console.log(weaponUsed)
 
+ //if () {
+            //  attack = () => {
+            //    for (let [key, value] of Object.enteries(attack)) {
+            //      if (key === selecteddifficulty){
+            //        return(value)
+            //      }
+            //    }
+           //   }
+           // }
